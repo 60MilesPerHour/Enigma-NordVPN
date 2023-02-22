@@ -7,7 +7,7 @@ The country of the VPN server is randomized every time the VPN connection is cha
 ## Installation
 
 1. Clone this repository:
-git clone https://github.com/60MilesPerHour/Enigma-NordVPN.git
+``git clone https://github.com/60MilesPerHour/Enigma-NordVPN.git``
 
 2. Install the required Python packages:
 pip install -r requirements.txt
@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ## Usage
 
 1. Run the script:
-python3 enigmavpn.py
+``python3 enigmavpn.py``
 
 2. Enter the interval (in minutes) for changing VPN when prompted.
 3. The script will connect to a random VPN server every N minutes (where N is the interval specified by the user).
